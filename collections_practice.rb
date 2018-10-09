@@ -12,7 +12,7 @@ end
 
 #3 
 def sort_array_char_count(array)
-  array.sort do |x|
-    x.length.reverse
+  array.sort do |x, y|
+    x.length <=> y.length
   end
 end
