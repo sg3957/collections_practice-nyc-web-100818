@@ -53,12 +53,12 @@ def sum_array(arr)
 end
 
 #9 
-def add_s(arr)
-  arr.map do |word|
-    if word != "feet"
-      word += "s"
-    else
-      word = word
-    end
-  end
-end
+# def add_s(arr)
+#   arr.map do |word|
+#     if word != "feet"
+#       word += "s"
+#     else
+#       word = word
+#     end
+#   end
+# end
