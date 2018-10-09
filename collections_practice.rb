@@ -73,5 +73,7 @@ def add_s(arr)
     if index != 1 
       word += "s"
     else
-      word = word
+      word = word 
+    end
+  end
 end
