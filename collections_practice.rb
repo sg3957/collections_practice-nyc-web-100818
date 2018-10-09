@@ -57,4 +57,6 @@ def add_s(arr)
   arr.map do |word|
     if word != "feet"
       word[-1] += "s"
+    end
+  end
 end
